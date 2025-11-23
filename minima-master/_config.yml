@@ -1,0 +1,41 @@
+# Titre de votre site
+title: "Mon Blog Technique"
+
+# Informations sur l'auteur
+author:
+  name: "vluciany"
+  email: "lv@qsays.com"
+
+# Description du site (pour SEO et RSS)
+description: >
+  Un blog technique sur l'IA, le DevOps et le développement logiciel.
+
+# Thème utilisé
+theme: minima
+
+# Paramètres spécifiques au thème Minima
+minima:
+  # Thème clair (dark auto activable si besoin)
+  skin: dark
+
+  # Pages à afficher dans la navigation principale
+  nav_pages:
+    - index.md
+    - about.md
+
+  # Afficher des extraits d'articles sur la page d'accueil
+  show_excerpts: true
+
+  # Format des dates affichées
+  date_format: "%b %d, %Y"
+
+  # Liens sociaux (personnalisez vos URLs)
+  social_links:
+    - icon: "github"
+      link: "https://github.com/vluciany"
+    - icon: "twitter"
+      link: "https://twitter.com/vluciany"
+
+  # Afficher le lien vers le flux RSS
+  hide_site_feed_link: false
+
